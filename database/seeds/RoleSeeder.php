@@ -17,7 +17,7 @@ class RoleSeeder extends Seeder
         );
 
         Role::updateOrCreate(
-            ['role' => 'admin']
+            ['role' => 'siswa']
         );
     }
 }
